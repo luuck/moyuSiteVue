@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@mixin flex($direction:column, $inline:block, $wrap: wrap, $justify: center , $align:center){
+  display: if($inline==block,flex,inline-flex);
+  flex-direction: $direction;  // 主轴方向 row | row-reverse | column | column-reverse
+  flex-wrap: $wrap; // 轴线,是否换行 nowrap | wrap | wrap-reverse
+  justify-content: $justify;
+  align-items: $align;
+
+  // flex-flow: flex-direction || flex-wrap;  两者的简写
+  // justify-content: flex-start | flex-end | center | space-between | space-around; 主轴的对齐方式
+  // align-item: flex-start | flex-end | center | baseline | stretch;  交叉轴如何对齐
+}
+
