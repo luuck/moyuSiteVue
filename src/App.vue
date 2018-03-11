@@ -11,11 +11,12 @@ export default {
 }
 </script>
 
+
 <style>
 #app {
-  /*font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;*/
+  /*fonts-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-fonts-smoothing: antialiased;
+  -moz-osx-fonts-smoothing: grayscale;*/
   font-family: "Adobe Clean",sans-serif;
   text-align: center;
   background-color: #fff;

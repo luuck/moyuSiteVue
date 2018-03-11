@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import Home from '../home/index.vue'
-import "../assets/css/reset.scss"
+import "../../static/css/reset.scss"
+import "../../static/css/font-awesome.scss"
 
 Vue.use(Router)
 

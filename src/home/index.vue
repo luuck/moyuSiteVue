@@ -1,20 +1,35 @@
 <template lang="html">
-<heador/>
-<Top/>
+  <div>
+    <heador/>
+    <Top/>
+    <Banner/>
+    <Article/>
+    <Footor/>
+    <Siderbor/>
+  </div>
 </template>
 
 <script>
-  import Heador from '../public/header.vue'
-  import Top from '../public/top.vue'
+  import Heador from '../public/header.vue';
+  import Top from './htop.vue';
+  import Banner from './hbanner.vue';
+  import Article from './harticle1.vue';
+  import Footor from '../public/footer.vue';
+  import Siderbor from './hsiderbar.vue';
   export default{
       components:{
         Heador,
-        Top
+        Top,
+        Banner,
+        Article,
+        Footor,
+        Siderbor
       }
-//    name: 'Home'
   }
 </script>
 
-<style lang="scss">
+<style lang="css">
 
+div{
+}
 </style>
