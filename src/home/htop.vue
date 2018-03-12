@@ -37,7 +37,7 @@
          introduction: '哈啰~，欢迎来到这里，我叫luuck，前端菜鸟程序媛一枚~继续了解我，请往下~',
        },
        items: [{
-         imgurl: './static/img/c-c3.jpg',
+         imgurl: 'static/img/c-c3.jpg',
          title: 'Personal introduction',
          content: 'So-Called Social: Week of March 5'
        }]
