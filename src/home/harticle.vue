@@ -16,28 +16,28 @@ export default {
   data(){
     return {
       items: [{
-        imgurl: './static/img/poster.png',
-        url: 'http://ql91.github.io/FERoad/task/task06.html',
-        title: '海报排版',
-        p: '#html,#css'
+        imgurl: 'https://luuck.github.io/tool/breakballoon/img/bg-tip.png',
+        url: 'https://luuck.github.io/tool/breakballoon/index.html',
+        title: '击破气球小游戏',
+        p: '#jquery插件,#面向对象'
+      },{
+        imgurl: 'http://luuck.github.io/tool/scrollbar/bg-tip.png',
+        url: 'http://luuck.github.io/tool/scrollbar/1.0.0/scrollbar.html',
+        title: '美化滚动条，局部无限滚动',
+        p: '#组件,#依赖jquery.nicescroll.js插件'
+      },{
+        imgurl: 'https://luuck.github.io/tool/siderbar/bg-tip.png',
+        url: 'https://luuck.github.io/tool/siderbar/siderbar-v1.3.0.html',
+        title: '浮窗',
+        p: '#兼容ie6+以及各主流浏览器'
+      },{
+        imgurl: 'https://luuck.github.io/tool/numscroll/images/bg-tip.png',
+        url: 'https://luuck.github.io/tool/numscroll/index.html',
+        title: '数字滚动',
+        p: '#js,#html,#css'
       },{
         imgurl: './static/img/poster.png',
-        url: 'http://ql91.github.io/FERoad/task/task06.html',
-        title: '海报排版',
-        p: '#html,#css'
-      },{
-        imgurl: './static/img/poster.png',
-        url: 'http://ql91.github.io/FERoad/task/task06.html',
-        title: '海报排版',
-        p: '#html,#css'
-      },{
-        imgurl: './static/img/poster.png',
-        url: 'http://ql91.github.io/FERoad/task/task06.html',
-        title: '海报排版',
-        p: '#html,#css'
-      },{
-        imgurl: './static/img/poster.png',
-        url: 'http://ql91.github.io/FERoad/task/task06.html',
+        url: 'http://ql91.github.io/FERoad/task/task07.html',
         title: '海报排版',
         p: '#html,#css'
       },{
