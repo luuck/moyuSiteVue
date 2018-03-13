@@ -1,15 +1,21 @@
 <template lang="html">
-  <div :class="$style.bg">
-    <div :class="$style.bgCon">
-      <h3>Welcome to here!</h3>
-      <i v-on:click="go"></i>
-     </div>
-  </div>
+      <div :class="$style.bg" id="bg">
+        <div :class="$style.bgCon">
+          <h3>Welcome to here!</h3>
+          <i v-on:click="go"></i>
+         </div>
+      </div>
 </template>
 
 <script>
 
 export default {
+  mounted : function(){
+    window.addEventListener('load', function(){
+      $('#bg').css('opacity','1');
+    });
+
+  },
   methods:{
     go:function(){
       $('html,body').animate({scrollTop:790}, 800);
@@ -22,6 +28,8 @@ export default {
   .bg{
     width: 100%;
     background: url(../../static/img/banner-bg.png) #F6C8AE  no-repeat center top;
+    opacity: 0;
+    transition: opacity .5s;
     height: 578px;
     text-align: left;
     .bgCon{

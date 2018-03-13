@@ -13,12 +13,15 @@
         <div :class="$style.nav">
           <span id="box1" v-on:mouseenter="toggle" v-on:mouseleave="toggleLeave">Skill</span>
           <span id="box2" v-on:mouseenter="toggle1" v-on:mouseleave="toggle1Leave">Experience</span>
+
+         <!--  <span id="box1" v-on:click="isShow1()">Skill</span>
+           <span id="box2" v-on:click="isShow2()">Experience</span>
+-->
           <!--<span id="box2" v-on:mouseenter="toggle1" v-on:mouseleave="toggle1Leave">Experience</span>-->
           <!--<span>Hobby</span>-->
         </div>
 
         <div :class="$style.item">
-          <transition name="slide2">
           <div :class="$style.item1" id="item1" v-on:mouseenter="toggle" v-on:mouseleave="toggleLeave" v-if="isshow2">
             <span>JavaScript</span>
             <span>HTML5</span>
@@ -32,12 +35,9 @@
             <span>Vue(学习实战中)</span>
             <span>Es6(学习实战中）</span>
           </div>
-          </transition>
-          <transition name="slide3">
           <div :class="$style.item2" id="item2" v-on:mouseenter="toggle1" v-on:mouseleave="toggle1Leave" v-if="isshow3">
             <p>2016年7月-至今：畅唐网络<br/><span>前端开发工程师</span></p>
           </div>
-          </transition>
 
         </div>
 
@@ -48,6 +48,10 @@
 <script>
   export default {
     methods:{
+      isShow1: function(){
+        $('#item1').fadeIn();
+
+      },
       toggle(event){
         this.isshow = true;
         this.isshow2 = true;
