@@ -16,28 +16,28 @@
     data(){
       return {
         items: [{
-          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
-          url: 'http://ql91.github.io/FERoad/task/task06.html',
-          title: '海报排版',
-          p: '#html,#css'
+          imgurl: 'https://luuck.github.io/tool/breakballoon/img/bg-tip.png',
+          url: 'https://luuck.github.io/tool/breakballoon/index.html',
+          title: '击破气球小游戏',
+          p: '#jquery插件,#面向对象'
         },{
-          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
-          url: 'http://ql91.github.io/FERoad/task/task06.html',
-          title: '海报排版',
-          p: '#html,#css'
+          imgurl: 'http://luuck.github.io/tool/scrollbar/bg-tip.png',
+          url: 'http://luuck.github.io/tool/scrollbar/1.0.0/scrollbar.html',
+          title: '美化滚动条，局部无限滚动',
+          p: '#组件,#依赖jquery.nicescroll.js插件'
         },{
-          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
-          url: 'http://ql91.github.io/FERoad/task/task06.html',
-          title: '海报排版',
-          p: '#html,#css'
+          imgurl: 'https://luuck.github.io/tool/siderbar/bg-tip.png',
+          url: 'https://luuck.github.io/tool/siderbar/siderbar-v1.3.0.html',
+          title: '浮窗',
+          p: '#兼容ie6+以及各主流浏览器'
         },{
-          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
-          url: 'http://ql91.github.io/FERoad/task/task06.html',
-          title: '海报排版',
-          p: '#html,#css'
+          imgurl: 'https://luuck.github.io/tool/numscroll/images/bg-tip.png',
+          url: 'https://luuck.github.io/tool/numscroll/index.html',
+          title: '数字滚动',
+          p: '#js,#html,#css'
         },{
-          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
-          url: 'http://ql91.github.io/FERoad/task/task06.html',
+          imgurl: './static/img/poster.png',
+          url: 'http://ql91.github.io/FERoad/task/task07.html',
           title: '海报排版',
           p: '#html,#css'
         },{
@@ -46,6 +46,37 @@
           title: '海报排版',
           p: '#html,#css'
         }]
+        /*items: [{
+          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
+          url: 'http://ql91.github.io/FERoad/task/task06.html',
+          title: '海报排版',
+          p: '#html,#css'
+        },{
+          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
+          url: 'http://ql91.github.io/FERoad/task/task06.html',
+          title: '海报排版',
+          p: '#html,#css'
+        },{
+          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
+          url: 'http://ql91.github.io/FERoad/task/task06.html',
+          title: '海报排版',
+          p: '#html,#css'
+        },{
+          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
+          url: 'http://ql91.github.io/FERoad/task/task06.html',
+          title: '海报排版',
+          p: '#html,#css'
+        },{
+          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
+          url: 'http://ql91.github.io/FERoad/task/task06.html',
+          title: '回到顶部',
+          p: '#html,#css'
+        },{
+          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
+          url: 'http://ql91.github.io/FERoad/task/task06.html',
+          title: '海报排版',
+          p: '#html,#css'
+        }]*/
       }
     }
   }
@@ -72,6 +103,11 @@
       overflow: hidden;
       /*box-shadow: 0 4px 8px 0 rgba(0,0,0,.1);*/
       box-shadow: 0 12px 24px 0 rgba(7,17,27,.2);
+
+      img{
+        width: 300px;
+        height: 170px;
+      }
 
       li:last-child {
         line-height: 280px;
