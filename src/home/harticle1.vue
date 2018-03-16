@@ -37,14 +37,9 @@
           p: '#js,#html,#css'
         },{
           imgurl: './static/img/poster.png',
-          url: 'http://ql91.github.io/FERoad/task/task07.html',
-          title: '海报排版',
-          p: '#html,#css'
-        },{
-          imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
-          url: 'http://ql91.github.io/FERoad/task/task06.html',
-          title: '海报排版',
-          p: '#html,#css'
+          url: 'javascript:;',
+          title: '完善中',
+          p: '....'
         }]
         /*items: [{
           imgurl: 'https://ql91.github.io/FERoad/pic/worksbg/poster.png',
