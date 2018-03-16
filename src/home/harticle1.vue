@@ -36,6 +36,11 @@
           title: '数字滚动',
           p: '#js,#html,#css'
         },{
+          imgurl: 'https://luuck.github.io/EBeauty/pic/worksbg/eBeauty.png',
+          url: 'https://luuck.github.io/EBeauty/EBeauty/index.html',
+          title: '易优美webApp',
+          p: '#我的收藏,#我的订单,#第三方支付'
+        },{
           imgurl: './static/img/poster.png',
           url: 'javascript:;',
           title: '完善中',
