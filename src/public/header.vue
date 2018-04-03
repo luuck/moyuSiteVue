@@ -7,10 +7,11 @@
     <div :class="$style.headerCon">
       <div :class="$style.headerConBox">
         <i></i>
-        <a href="//luuck.github.io" target="_blank">
+        <a :class="$style.aBtn" href="//luuck.github.io" target="_blank">
           Lu'Blog
         </a>
         <div :class="$style.nav">
+          <a :class="$style.aBlog" href="//luuck.github.io" target="_blank">Blog</a>
           <span id="box1" v-on:mouseenter="toggle" v-on:mouseleave="toggleLeave">Skill</span>
           <span id="box2" v-on:mouseenter="toggle1" v-on:mouseleave="toggle1Leave">Experience</span>
 
@@ -133,7 +134,7 @@
         max-width: 1020px;
         margin: 0 auto;
         position: relative;
-        a{
+        .aBtn{
           color: #000;
           position: absolute;
           left: 32px;
@@ -160,6 +161,15 @@
           flex: 1;
           transition: background-color .3s;
           @include flex(4, '', nowrap, flex-end, center);
+          .aBlog{
+            color: #000;
+            transition: all .8s ease-in-out;
+            text-decoration: none;
+            &:hover{
+              color: #EF807C;
+              padding-right: 16px;
+            }
+          }
           span {
             font-weight: 600;
             width: 100px;
@@ -187,6 +197,11 @@
               top: calc(50% + 17px);
               left: calc(50% - 1.5px);
             }
+          }
+          span#box0{
+              &:before{
+                display: none;
+              }
           }
         }
 
